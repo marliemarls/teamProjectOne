@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    margin-left: 20px;
+    width: 800px;
+    height: 600px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}

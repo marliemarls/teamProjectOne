@@ -27,7 +27,7 @@
 }
 
     .container form h1{
-        color: #fff;
+        color: #66fcf1;
         font-weight: 500;
         margin-top: 20px;
         width: 500px;
@@ -89,12 +89,12 @@ textarea::-webkit-scrollbar-thumb{
 
 .container form #button{
     border: none;
-    background: #fff;
+    background: #66fcf1;
     border-radius: 5px;
     margin-top: 20px;
     font-weight: 600;
     font-size: 20px;
-    color: #333;
+    color: #0B0C10;
     width: 100px;
     padding: 0;
     margin-right: 500px;

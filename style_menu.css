@@ -1,14 +1,21 @@
 body{
     margin: 0px;
     margin-left: 20px;
-    width: 800px;
-    height: 600px;
+    width: 600px;
+    height: 800px;
 }
 
 .container{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 1rem;
+}
+
+.tile{
+    border: 2px solid blue;
+    padding: 10px;
+    text-align: center;
+    grid-column: auto;
 }
 
 img{

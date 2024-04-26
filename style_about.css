@@ -5,9 +5,17 @@
 
 body{
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 div{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
     text-align: center;
     margin: 15px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +23,7 @@ div{
 
 }
 .header{
+    width: 300px;
     text-align: center;
     margin: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

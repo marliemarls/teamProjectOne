@@ -105,3 +105,38 @@ textarea::-webkit-scrollbar-thumb{
 .container form #button:hover{
     opacity: 0.7;
 }
+/* NAV BAR */
+ 
+ 
+nav{
+    background-color: black;
+    position: absolute;
+    bottom: 91%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+ 
+nav li{
+    display: inline;
+    padding: 0 0 0 10%;
+    position: relative;
+    left: 20%;
+}
+ 
+nav a{
+    color: #45a29e;
+    text-decoration: none;
+}
+ 
+nav a:hover{
+    color: #66fcf1;
+}
+ 
+.material-symbols-outlined{
+    color: #66fcf1;
+    filter: drop-shadow(2px 2px 4px blue);
+    position: absolute;
+    left: -2em;
+ 
+}

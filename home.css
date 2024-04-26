@@ -1,0 +1,255 @@
+/* NAV BAR */
+
+
+nav{
+    background-color: black;
+    position: absolute;
+    bottom: 91%;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+nav li{
+    display: inline;
+    padding: 0 0 0 10%;
+    position: relative;
+    left: 20%;
+}
+
+nav a{
+    color: #45a29e;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    color: #66fcf1;
+}
+
+.material-symbols-outlined{
+    color: #66fcf1;
+    filter: drop-shadow(2px 2px 4px blue);
+    position: absolute;
+    left: -2em;
+
+}
+/* HEAD */
+.headings{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 5em;
+    color: #66fcf1;
+}
+
+.headings h1{
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    bottom: 60px;
+    filter: drop-shadow(2px 2px 5px black);  
+    
+    
+}
+span{
+    font-family: "Sofia", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
+}
+h1{
+  
+  font-family: "Peralta", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4em;
+}
+
+.headings blockquote{
+    position: absolute;
+    top: 14em;
+    left: 30%;
+    font-size: x-large;
+    color: #66fcf1;
+    filter: drop-shadow(2px 2px 9px black);
+}
+
+
+
+/* BACKGROUND VIDEO */
+
+.Video-container{
+    position: absolute;
+    top: 3em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500;
+    overflow: hidden;
+    z-index: -9;
+}
+
+.Video-container video{
+    min-width: 100%;
+    min-height: 100%;
+
+    width: auto;
+    height:auto;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* TEAM ADD THIS */
+/* FOOTER */
+
+footer{
+    background-color: black;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 36.6em;
+    z-index: -10;
+}
+
+
+.logo{
+    position: absolute;
+    height: auto;
+    width: 15.7vw;
+    top: 0;
+    padding-left: 2vw;
+}
+
+
+
+
+
+
+    /* LEFT */
+.footer-left{
+    padding-left: 2em;
+}
+
+.footer-left .logo{
+    position: absolute;
+    top: -2em;
+    z-index: -10;
+}
+
+.footer-left p{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    bottom: 1.2em;
+    padding-left: 1em;
+    
+}
+.footer-left a{
+    text-decoration: none;
+    padding: 0.5vw;
+    color: #66fcf1;
+    font-size: 13px;
+    padding-right: 20px;
+}
+.footer-left a:hover{
+    color: #c5c6c7;
+}
+
+    /* CENTER */
+.footer-center{
+    position: absolute;
+    color: red;
+    top: 2em;
+    right: 0;
+    margin-right: 43%;
+    text-align: left;
+}
+
+.footer-center a{
+ color: #66fcf1;
+ font-size: 14px;
+ text-decoration: none;
+}
+
+.footer-center a:hover{
+    color: #c5c6c7;
+}
+
+
+/* RIGHT */
+
+.footer-right{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 70vw;
+    left: 5em;
+}
+
+.footer-right h3{
+    color: #c5c6c7;
+    text-align: left;
+
+}
+
+
+.footer-right p:nth-child(2){
+    color: #66fcf1;
+    position: absolute;
+    right:  100px;
+    top: 65%;
+    font-size: 15px;
+    text-align: center;
+}
+
+ .Social-Media {
+    position: absolute;
+    top: 10em;
+}
+
+.Social-Media a{
+    padding-left: 1em;
+    padding-right:  5px;
+    position: relative;
+    text-decoration: none;
+    
+}
+
+.Social-Media, .fa{
+    position: absolute;
+    left: -20px; 
+}
+
+.Social-Media a:hover{
+    color: #45a29e;
+}
+
+
+.fa-facebook {
+    color: #c5c6c7;
+    
+}
+
+  .fa-google {
+    color: #c5c6c7;
+  }
+
+  .fa-linkedin {
+    color: #c5c6c7;
+  }
+
+  .fa-youtube {
+    color: #c5c6c7;
+    
+  }
